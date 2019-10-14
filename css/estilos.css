@@ -285,3 +285,23 @@ EMPIEZAN LAS MEDIAS QUERIES
        }
 
   }
+
+
+
+  
+
+/*---------------------------------------------
+Estilo pagina de error 404
+--------------------------------------------*/
+
+.pag404 {
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(circle, #fee540 50%, #bdaf01);
+
+}
+
+body#e404 {
+  margin: 0px;
+}
+
