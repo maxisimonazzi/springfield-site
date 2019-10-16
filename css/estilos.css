@@ -205,6 +205,35 @@ PAGINAS DE NOTICIAS
 
 
 /*---------------------------------------------
+PAGINAS DE TECNOLOGIA
+--------------------------------------------*/
+.banner_desktop {
+  /*background: linear-gradient(to bottom,#1b8dd8,#0072bd);*/
+  height: 545px;
+  background: url("../images/fondo-banner-superior-tecnologia.jpg") no-repeat center top;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+
+.imagen-banner-cientifico {
+  position: absolute;
+  width: 500px;
+  z-index: 2;
+  bottom: 0px;
+  right: 55px; }
+
+.imagen-banner-escudo {
+  position: absolute;
+  z-index: 2;
+  bottom: 90px;
+  left: 10%; }
+
+
+
+/*---------------------------------------------
 EMPIEZAN LAS MEDIAS QUERIES
 --------------------------------------------*/
 @media (min-width: 768px) {
