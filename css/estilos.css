@@ -207,7 +207,7 @@ PAGINAS DE NOTICIAS
 /*---------------------------------------------
 PAGINAS DE TECNOLOGIA
 --------------------------------------------*/
-.banner_desktop {
+.banner_desktop_tecnologia {
   /*background: linear-gradient(to bottom,#1b8dd8,#0072bd);*/
   height: 545px;
   background: url("../images/fondo-banner-superior-tecnologia.jpg") no-repeat center top;
