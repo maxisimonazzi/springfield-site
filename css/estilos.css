@@ -207,7 +207,7 @@ PAGINAS DE NOTICIAS
 
 /*---------------------------------------------
 PAGINAS DE TECNOLOGIA
---------------------------------------------*/
+---------------------------------------------*/
 .banner_desktop_tecnologia {
   /*background: linear-gradient(to bottom,#1b8dd8,#0072bd);*/
   height: 545px;
@@ -231,6 +231,22 @@ PAGINAS DE TECNOLOGIA
   z-index: 2;
   bottom: 90px;
   left: 10%; }
+
+
+
+  /*---------------------------------------------
+PAGINAS DE SALUD
+---------------------------------------------*/
+.banner_desktop_salud {
+  /*background: linear-gradient(to bottom,#1b8dd8,#0072bd);*/
+  height: 545px;
+  background: url("../images/banner-salud-superior.jpg") no-repeat center top;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
 
 
 
