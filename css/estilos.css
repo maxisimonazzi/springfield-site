@@ -301,6 +301,12 @@ EMPIEZAN LAS MEDIAS QUERIES
     right: 20px; 
   }
 
+  .imagen-banner-cientifico {
+    width: 85%;
+    max-height: 550px;
+    max-width: 500px;
+    right: 20px;; }
+
   .imagen-banner-escudo {
     bottom: 150px;
     left: 10%; }
