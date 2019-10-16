@@ -1,0 +1,170 @@
+
+
+.ly-contenedor {
+    height: 140%;
+    width: 100%;
+     
+    
+  }
+  
+  
+  .imgRedonda {
+    width:300px;
+    height:280px;
+    border-radius:150px;
+    border:5px solid #0172be;
+    transition: transform 0.5s ease;
+  }
+  
+  .effect-hover:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  
+  
+  p {
+    border: #17a2b8 27px solid;
+   
+    border-image-slice: 27 fill;
+  
+    padding: 10px;
+    color: white;
+    text-align: justify;
+  }
+  
+  
+  .le-contenedor {
+    height: 100%;
+    width: 50%;
+    
+    background: #0172be;
+    
+  
+  }
+  
+  
+  
+  
+  
+  .navbar svg {
+    vertical-align: middle;
+  }
+  
+  .dropdown-toggle:after {
+    display: none;
+  }
+  
+  
+  /*Primer tiempo. Oculto*/
+  .dropdown-menu-drawer {
+      display: block;
+      width: 350px;
+      top: 0;
+      margin: 0;
+      position: fixed !important;
+      left: auto;
+      border: 0;
+      border-radius: 0;
+      bottom: 0;
+      -webkit-transition: 2s all ease-in-out;
+      transition: 2s all ease-in-out;
+      visibility: hidden;
+      font-size: 1.5em; 
+      -webkit-box-shadow: 0 0 15px rgba(47, 150, 163, 0.76);
+      box-shadow: 0 0 15px rgba(70, 103, 211, 0.349);
+    
+      /*Propiedades de la animacion*/
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-name: fadeOutLeft;
+      animation-name: fadeOutLeft;
+  }
+  
+  /*Segundo tiempo. Visible*/
+  .dropdown-menu-drawer.show {
+      visibility: visible;
+      width: 350px;
+      left: 0;
+      top: 0;
+      margin: 0;
+      position: fixed;
+      right: auto;
+      border: 0;
+      border-radius: 0;
+      bottom: 0;
+      -webkit-transition: .2s all ease-in-out;
+      transition: .2s all ease-in-out; 
+    
+      -webkit-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+  }
+  
+  .dropdown-menu-drawer .dropdown-item {
+      color: rgba(7, 36, 204, 0.747) !important;
+      margin: 0;
+      margin-top: 1em; 
+  }
+    
+    .dropdown-menu-drawer .dropdown-item:hover {
+      background: none;
+      color: rgb(17, 52, 168); 
+  }
+  
+  /*ANIMACIONES*/
+  
+  @-webkit-keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @-webkit-keyframes fadeOutLeft {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  
+  @keyframes fadeOutLeft {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
